@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=skimind
+POSTGRES_USER=EToGVevqVNTgzDUXtdHPYGuWHlGEIRvZ
+POSTGRES_PASSWORD=2kPrsNpi3OGc4qYP3XIS97fB98IPbDttdp01LTtDxh8bjd0XiUq2IvjSZzXKYRDP

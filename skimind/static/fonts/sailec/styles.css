@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Sailec-Regular';
+  src: url('Sailec-Regular.eot?#iefix') format('embedded-opentype'),  url('Sailec-Regular.woff') format('woff'), url('Sailec-Regular.ttf')  format('truetype'), url('Sailec-Regular.svg#Sailec-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+@font-face {
+  font-family: 'Sailec-Medium';
+  src: url("{% static 'fonts/sailec/Sailec-Medium.eot?#iefix' %}") format('embedded-opentype'),  url("{% static 'fonts/sailec/Sailec-Medium.woff' %}") format('woff'), url("{% static 'fonts/sailec/Sailec-Medium.ttf' %}")  format('truetype'), url(" {% static 'fonts/sailec/Sailec-Medium.svg#Sailec-Medium' %}") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+body{
+  font-family: 'Sailec-Regular' !important;
+  letter-spacing: -0.7px;
+  padding-top: 58px;
+}
+

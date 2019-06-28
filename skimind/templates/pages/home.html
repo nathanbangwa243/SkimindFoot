@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+  <div class="my-5">
+    <div class="row">
+      <div class="col-sm-1">
+        <span class="font-weight-bold text-right">
+          filtrer :
+        </span>
+      </div>
+      <div class="col-sm-2 my-sm-3 mx-sm-3">
+          <input class="form-control form-control-sm" type="text" placeholder="montant">
+      </div>
+      <div class="col-sm-2 my-sm-3 mx-sm-3">
+          <input class="form-control form-control-sm" type="text" placeholder="resultat">
+      </div>
+      <div class="col-sm-2">
+        <a href="" class="btn btn-outline-secondary">filtrer</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 table-responsive">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Date</th>
+          <th scope="col">time</th>
+          <th scope="col">comp</th>
+          <th scope="col">home</th>
+          <th scope="col">visitor</th>
+          <th scope="col">cote</th>
+          <th scope="col">prediction</th>
+          <th scope="col">probabilté</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>29/01/2019</td>
+          <td>15:00</td>
+          <td>-</td>
+          <td>Barca</td>
+          <td>bayern</td>
+          <td>23</td>
+          <td>4</td>
+          <td>65%</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>29/01/2019</td>
+          <td>16:00</td>
+          <td>-</td>
+          <td>R. Madrid</td>
+          <td>UFC</td>
+          <td>21</td>
+          <td>2</td>
+          <td>35%</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>24/01/2019</td>
+          <td>18:00</td>
+          <td>-</td>
+          <td>Milan</td>
+          <td>Man City</td>
+          <td>20</td>
+          <td>2</td>
+          <td>95%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="my-5">
+      <h2>
+        Recommandation
+      </h2>
+    </div>
+
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+{% endblock content %}
