@@ -4,7 +4,7 @@ astor==0.7.1
 certifi==2019.3.9
 cffi==1.12.3
 chardet==3.0.4
-cryptography==2.6.1
+cryptography==3.2
 gast==0.2.2
 grpcio==1.12.1
 idna==2.8
